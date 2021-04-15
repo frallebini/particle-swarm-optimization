@@ -1,8 +1,4 @@
 # Particle Swarm Optimization
-### Francesco Ballerini 
-#### francesco.ballerini3@studio.unibo.it
-
-<br>
 
 A Python implementation of Particle Swarm Optimization (PSO) — as suggested in 
 [[BrattonKennedy2007]](https://ieeexplore.ieee.org/document/4223164) — and its application to the Computer Vision task 
@@ -31,7 +27,7 @@ information only.
 ## Reproducibility
 
 PSO is a nondeterministic algorithm; however, for the sake of reproducibility of the results, the random `seed` in 
-[`swarm.py`](swarm.py) is set to a fixed value — `42`, for 
+[`swarm.py`](https://github.com/frallebini/particle-swarm-optimization/blob/8cca3d152fcb7e8d17fcdb7f532ebb8b220d8c53/swarm.py#L52) is set to a fixed value — `42`, for 
 [obvious reasons](https://en.wikipedia.org/wiki/42_(number)).
 
 Conversely, if you want to get a different outcome at each run, replace
