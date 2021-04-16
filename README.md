@@ -13,16 +13,22 @@ python 3.8.5
 
 ## Executable files
 
-Run the files listed below: you will be asked whether to plot the animations or output textual 
+Run the files listed below to get the shown results. You will be asked whether to plot the animations or output textual 
 information only.
 
 * ### [`benchmarks.py`](benchmarks.py)
 
     PSO applied to non-convex artificial landscapes.
+    
+    ![rastrigin](images/rastrigin.gif "Rastrigin function")
+    ![rosenbrock](images/rosenbrock.gif "Rosenbrock function")
 
 * ### [`detection.py`](detection.py)
 
     PSO applied to Object Detection by Template Matching.
+    
+    ![quarto_stato](images/quarto_stato/quarto_stato.gif)
+    ![arduino](images/arduino/arduino.gif)
 
 ## Reproducibility
 
